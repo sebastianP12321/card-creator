@@ -62,8 +62,6 @@ function removeLast() {
 function remove() {
   if (event.target.className == "frame" && removeAllower == true) {
     event.target.remove();
-    document.querySelector(".warning").remove();
-    removeAllower = false;
   }
 }
 
